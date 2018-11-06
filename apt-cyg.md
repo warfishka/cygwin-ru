@@ -1,12 +1,12 @@
 ## Установка
 Самый простой способ установки **apt-cyg**
 
-* Правой кнопкой мыши "https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg"
-* Выбрать "Сохранить ссылку как:"
-* Выбарть директорию c:\cygwin\bin (или другой путь установки)
-* Убрать .txt расширение, что бы сохранить файл как **apt-cyg**
-* Нажать "Сохранить"
-* Выполнить комманду `chmod +x /bin/apt-cyg` в *cygwin*
+1. Правой кнопкой мыши "https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg"
+2. Выбрать "Сохранить ссылку как:"
+3. Выбрать директорию c:\cygwin\bin (или другой путь установки)
+4. Убрать .txt расширение, что бы сохранить файл как **apt-cyg**
+5. Нажать "Сохранить"
+6. Выполнить комманду `chmod +x /bin/apt-cyg` в *cygwin*
 
 * Обновляем последний setup.ini
 ```sh
