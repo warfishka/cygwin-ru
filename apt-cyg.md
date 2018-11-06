@@ -8,18 +8,6 @@
 * Нажать "Сохранить"
 * Выполнить комманду `chmod +x /bin/apt-cyg` в *cygwin*
 
-## Памятка
-
-```sh
-$ apt-cyg install -- установить пакеты
-$ apt-cyg remove -- удалить пакеты
-$ apt-cyg update -- обновить setup.ini
-$ apt-cyg show -- показать установленные пакеты
-$ apt-cyg find -- найти пакет по подходящим патернам 
-$ apt-cyg describe -- описать пакет по подходящим патернам 
-$ apt-cyg packageof -- найти корневой пакет
-```
-
 * Обновляем последний setup.ini
 ```sh
 $ apt-cyg update
@@ -30,4 +18,16 @@ $ apt-cyg update
 ```sh
 $ apt-cyg install openssh git curl perl python3
 $ apt-cyg update
+```
+
+## Памятка
+
+```sh
+$ apt-cyg install -- установить пакеты
+$ apt-cyg remove -- удалить пакеты
+$ apt-cyg update -- обновить setup.ini
+$ apt-cyg show -- показать установленные пакеты
+$ apt-cyg find -- найти пакет по подходящим патернам 
+$ apt-cyg describe -- описать пакет по подходящим патернам 
+$ apt-cyg packageof -- найти корневой пакет
 ```
