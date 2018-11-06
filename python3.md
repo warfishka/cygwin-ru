@@ -14,7 +14,7 @@ $ ./hello.py
 Hello, World!
 ```
 
-Устанавливаем библиотеку через [**pip3**](pip3.md):  
+Устанавливаем библиотеку через [**pip3**](pip.md):  
 ```sh
 $ pip install requests
 ```
