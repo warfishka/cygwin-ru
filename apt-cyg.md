@@ -8,21 +8,18 @@
 5. Нажать "Сохранить"
 6. Выполнить комманду `chmod +x /bin/apt-cyg` в *cygwin*
 
-* Обновляем последний setup.ini
+Обновляем последний setup.ini
 ```sh
 $ apt-cyg update
 ```
 
 ## Устанавливаем полезные пакеты:
-
 ```sh
 $ apt-cyg install openssh git curl perl python3
 $ apt-cyg update
 ```
 
 ## Памятка
-
-
 + `$ apt-cyg install` -- установить пакеты
 + `$ apt-cyg remove` -- удалить пакеты
 + `$ apt-cyg update` -- обновить setup.ini
