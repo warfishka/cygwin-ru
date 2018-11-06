@@ -13,3 +13,8 @@ $ chmod a+x hello.py
 $ ./hello.py
 Hello, World!
 ```
+
+Устанавливаем библиотеку через [**pip3**](pip3.md):  
+```sh
+$ pip install requests
+```
