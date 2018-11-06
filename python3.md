@@ -6,8 +6,9 @@
 print("Hello, World!")
 ```
 
-Далее в *cygwin*  
+Далее для теста в *cygwin* пишем:
 ```sh
+$ python3 -V
 $ chmod a+x hello.py
 $ ./hello.py
 Hello, World!
